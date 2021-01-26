@@ -6,8 +6,7 @@ end
 
 def read_from_hash(hash, key)
   # return the correct value using the hash and key parameters
-  new_hash = {name: "Paprika", species: "cat"}
-  puts new_hash{:species}
+hash[key]
 end
 
 def update_counting_hash(hash, key)
